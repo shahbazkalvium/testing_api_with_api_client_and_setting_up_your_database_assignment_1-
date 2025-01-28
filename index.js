@@ -19,7 +19,7 @@
 
 const express = require('express');
 const { resolve } = require('path');
-const students =require('.data.json');
+const students =require('./data.json');
 const app = express();
 const port = 3010;
 
